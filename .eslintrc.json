@@ -1,3 +1,11 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "xo",
+    "xo-typescript/space",
+    "xo-react/space"
+  ],
+  "rules": {
+    "new-cap": "off"
+  }
 }
