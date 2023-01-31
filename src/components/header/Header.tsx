@@ -2,7 +2,7 @@
 
 import React from 'react';
 import {Lead} from '@/components/header/Lead';
-import {Nav} from '@/components/header/Nav';
+import {Nav} from '@/components/header/nav/Nav';
 
 export function Header() {
   return (
