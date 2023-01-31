@@ -6,7 +6,7 @@ type Props = {
 
 export function Kbd(props: Props) {
   return (
-    <kbd className='px-[6px] py-[2px] rounded border-2 border-neutral-500 bg-neutral-800 text-neutral-50 text-sm'>
+    <kbd className='px-[6px] py-[2px] font-normal rounded border-2 border-neutral-500 bg-neutral-800 text-neutral-50 text-sm'>
       {props.children}
     </kbd>
   );

@@ -4,14 +4,14 @@ export function Lead() {
   return (
     <div>
       <section>
-        <h1 className='text-6xl text-neutral-50 font-bold'>
+        <h1 className='text-2xl font-bold leading-tight lg:text-6xl lg:leading-none text-neutral-50'>
           Bryan Matheus
         </h1>
-        <h2 className='text-2xl text-neutral-50 font-semibold mt-4'>
+        <h2 className='mt-4 sm:text-lg text-2xl font-semibold leading-tight text-neutral-50'>
           Front-end Engineer
         </h2>
       </section>
-      <section>
+      <section className='leading-loose'>
         <p className='mt-6'>
           I am a skilled Front-end Engineer with expertise in JavaScript, TypeScript, React.js, and Node.js. I have a
           passion for creating visually appealing and user-friendly web applications
