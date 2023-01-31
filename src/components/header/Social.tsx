@@ -17,7 +17,7 @@ export function Social() {
             </div>
           </Link>
         </li>
-        <li className='mx-16'>
+        <li className='mx-4'>
           <Link href='https://www.github.com/bryan-matheus/' className='flex items-center' rel='noopener noreferrer' target='_blank'>
             <GitHubLogoIcon className='w-4 h-4 mr-4 fill-current'/>
             <span className='mt-px'>GitHub</span>
