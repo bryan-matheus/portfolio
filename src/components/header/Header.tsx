@@ -3,6 +3,7 @@
 import React from 'react';
 import {Lead} from '@/components/header/Lead';
 import {Nav} from '@/components/header/nav/Nav';
+import {Social} from '@/components/header/Social';
 
 export function Header() {
   return (
@@ -10,8 +11,8 @@ export function Header() {
       <div className='flex flex-col'>
         <Lead/>
         <Nav/>
-        {/* <Social/> */}
       </div>
+      <Social/>
     </header>
   );
 }

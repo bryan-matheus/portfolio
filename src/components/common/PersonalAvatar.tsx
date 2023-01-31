@@ -5,10 +5,10 @@ export function PersonalAvatar() {
   return (
     <Avatar.Root>
       <Avatar.Image
-        className='w-12 h-12 rounded-full'
-        src='https://avatars.githubusercontent.com/u/39971756?v=4'
+        className='w-12 h-12 mr-8 rounded-full ease-in-out'
+        src='me.png'
         alt='Bryan Matheus'/>
-      <Avatar.Fallback>BM</Avatar.Fallback>
+      <Avatar.Fallback className='w-12 h-12'>BM</Avatar.Fallback>
     </Avatar.Root>
   );
 }
